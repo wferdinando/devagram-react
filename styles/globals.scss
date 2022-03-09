@@ -5,4 +5,13 @@
   font-family: $fontRegular;
   font-size: 14px;
 }
+.avatar{
+  border-radius: 50%;
+  object-fit: cover;
+}
+.oculto{
+  display: none;
+}
+
+@import '../componentes/botao/botao.scss';
 
