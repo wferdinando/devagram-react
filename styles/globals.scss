@@ -5,6 +5,12 @@
   font-family: $fontRegular;
   font-size: 14px;
 }
+
+html, body, #__next{
+  height: 100%;
+  margin: none;
+}
+
 .avatar{
   border-radius: 50%;
   object-fit: cover;
@@ -13,5 +19,23 @@
   display: none;
 }
 
+input {
+  &::placeholder{
+    color: $cinza2;
+    opacity: 1;
+  }
+  &:-ms-input-placeholder{
+    color: $cinza2;
+    opacity: 1;
+  }
+  &:-ms-input-placeholder{
+    color: $cinza2;
+    opacity: 1;
+  }
+}
+
+
 @import '../componentes/botao/botao.scss';
+@import '../componentes/inputPublico/inputPublico.scss';
+@import './paginaPublica.scss';
 

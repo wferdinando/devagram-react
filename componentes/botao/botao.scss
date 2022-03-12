@@ -1,6 +1,7 @@
 @mixin botaoPrimario {
     background-color: $corPrimaria;
     color: $branco;
+    border: 1px solid;
 }
 
 @mixin botaoInvertido {
