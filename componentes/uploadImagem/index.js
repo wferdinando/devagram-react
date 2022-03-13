@@ -2,7 +2,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useRef,  useEffect } from "react";
 
-export function UploadImagem({
+export default function UploadImagem({
     className = '',
     setImagem,
     imagemPreview,
